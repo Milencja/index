@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Milena Pieńkosz">
+    <meta name="keywords" content="soki, syropy, powidła, dżemy, zdrowie, produkty">
+    <meta name="description" content="Rodzinna firma tworząca najlepszej jakości naturalne syropy, soki, powidła, dżemy. Dostępne zestawy specjalne i linia premium. Zdrowie połączone z tradycją.">
+    <title>Ziołowe skarby</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./style.scss">
+    <script src="https://kit.fontawesome.com/e9ada9348f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-md navbar-light p-4 position-fixed top-0 ">
+    <div class="container-fluid d-flex ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item  px-md-3">
+                    <a class="nav-link active" aria-current="page" href="index.html#home">home</a>
+                </li>
+                <li class="nav-item  px-md-3">
+                    <a class="nav-link" href="products.html#gallery">Galeria</a>
+                </li>
+                <li class="nav-item px-md-3">
+                    <a class="nav-link" href="products.html#prices">Cennik</a>
+                </li>
+                <li class="nav-item px-md-3">
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                </li>
+                <li class="nav-item-five px-md-3 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Nasze produkty
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="products.html#syrops">Syropy</a></li>
+                        <li><a class="dropdown-item" href="products.html#juices">Soki</a></li>
+                        <li><a class="dropdown-item" href="products.html#jams">Dżemy i Powidła</a></li>
+                        <li><a class="dropdown-item" href="products.html#others">Specjalne</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>    <section class="gallery" id="gallery">
+        <h2 class="title">Ziołowe skarby</h2>
+        <div class="gallery-shadow"></div>
+        <div class="card-group carousel-products">
+
+            <div class="card mx-3">
+                <img src="melisa.jpg" class="card-img-top"
+                    alt="Syrop z melisy w szklanej butelce">
+                <div class="card-body">
+                    <h3 class="card-title">Syrop z melisy </h3>
+                    <p class="card-text">Uspokaja, rozkurcza, jest przeciwbakteryjny,
+                        przeciwwirusowy i przeciwzapalny. </p>
+                    <p class="card-text">Pobudza wydzielanie soków trawiennych i hamuje rozmnażanie
+                        niektórych komórek nowotworowych.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-price">Opakowanie szklane 300ml 12zł</small>
+                </div>
+            </div>
+
+            <div class="card mx-3">
+                <img src="presents.jpg" class="card-img-top"
+                    alt="Koszyk prezentowy z różnymi produktami zapakowany w folię przezroczystą">
+                <div class="card-body">
+                    <h3 class="card-title">Koszyk prezentowy</h3>
+                    <p class="card-text">Wersja naszych produktów w eleganckim wydaniu, skomponowana
+                        na życzenie klienta.</p>
+                    <p class="card-text">Zapraszamy do kontaktu w celu wybrania odpowiednich dla
+                        Państwa zestaw.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-price">Indywidualna wycena</small>
+                </div>
+            </div>
+
+            <div class="card mx-3">
+                <img src="bez.jpg" class="card-img-top"
+                    alt="Trzy butelki soku z gałązkami bzu czarnego stojące na trawie">
+                <div class="card-body">
+                    <h3 class="card-title">Sok z owoców bzu czarnego</h3>
+                    <p class="card-text">Idealny na wzmocnienie, leczy przeziębienie i osłabienia
+                        organizmu. Skarbnica witamin, minerałów i antyoksydantów. </p>
+                    <p class="card-text">Naturalny sok, robiony tradycyjną metodą.
+                        Zbierany z terenów Roztocza.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-price">Opakowanie szklane 200ml
+                        12zł</small>
+                </div>
+            </div>
+
+            <div class="card mx-3">
+                <img src="herbata.jpg" class="card-img-top"
+                    alt="Słoiczki oraz miseczka z herbatą na tle ulotki z logo firmy">
+                <div class="card-body">
+                    <h3 class="card-title">Herbata ziołowo-owocowa</h3>
+                    <p class="card-text">Moc ziół leczniczych zamknięta w szklanym słoiku, z
+                        naturalnym korkim nie pozwoli na utratę cennych aromatów. </p>
+                    <p class="card-text">Herbata poprawia
+                        funkcjonowanie naczyń krwionośnych i serca.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-price">Opakowanie szklane 30g 18zł</small>
+                </div>
+            </div>
+            <div class="card mx-3">
+                <img src="maggi.jpg" class="card-img-top"
+                    alt="Buteleczki przyprawy maggi na tle półek z przyprawami i ulotki firmy">
+                <div class="card-body">
+                    <h3 class="card-title">Przyprawa w płynie
+                    </h3>
+                    <p class="card-text">Cudowny aromat
+                        lubczyku, smak grzybów i przypraw sprawiają że nasz produkt jest idealnym dodatkiem do każdej potrawy. </p>
+                    <p class="card-text">Bez chemii i
+                        sztucznych barwników.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-price">Opakowanie szklane 250ml 12zł</small>
+                </div>
+            </div>
+
+            <div class="card mx-3">
+                <img src="tymianek.jpeg" class="card-img-top"
+                    alt="Mały słoiczek syropu z gałązką tymianku na kamiennym podłożu">
+                <div class="card-body">
+                    <h3 class="card-title">Syrop z tymianku</h3>
+                    <p class="card-text">Działanie przeciwzapalne, przeciwbakteryjne. Łagodzi objawy
+                        infekcji jamy ustnej i gardła. Wzmacnia układ odpornościowy.
+                    </p>
+                    <p class="card-text">Działa odkażająco, minimalizuje objawy przeziębienia i grypy. 
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-price">Opakowanie szklane 200ml 12zł</small>
+                </div>
+            </div>
+
+            <div class="card mx-3">
+                <img src="special3.main.jpeg" class=" card-img-top"
+                    alt="Mini słoiczki zawierające mniejsze wersje produktów na tle sosny">
+                <div class="card-body">
+                    <h3 class="card-title">Mini wersje produktów</h3>
+                    <p class="card-text">Zapraszamy po mini wersje naszych pełnowymiarowych
+                        produktów. </p>
+                    <p class="card-text">Doskonałe jako upominek dla gości. Minimalne zamówienie
+                        20szt.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-price">Opakowanie szklane 40ml 3.80zł</small>
+                </div>
+            </div>
+
+            <div class="card mx-3">
+                <img src="szałwia.jpg" class="card-img-top"
+                    alt="Trzy buteleczki syropu na kolumnie w stylu greckim">
+                <div class="card-body">
+                    <h3 class="card-title">Syrop z szałwi lekarskiej</h3>
+                    <p class="card-text">Szałwia ma działanie pobudzające soki trawienne i
+                        antyseptyczne. </p>
+                    <p class="card-text">Doskonale sprawdzi się przy stanach
+                        zapalnych przewodu pokarmowego czy podwyższonym poziomie cukru.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-price">Opakowanie szklane 300ml 12zł</small>
+                </div>
+            </div>
+            <div class="card mx-3">
+                <img src="lubczyk.jpg" class="card-img-top"
+                    alt="Drewniana miseczka ze startym lubczykiem na zielonej trawie">
+                <div class="card-body">
+                    <h3 class="card-title">Lubczyk suszony</h3>
+                    <p class="card-text">Świetnie nadaje się jako przyprawa do zup, sosów, gulaszu.
+                        Wspomaga organizm w pozbywaniu się toksyn. </p>
+                    <p class="card-text">Poza tym wykazuje działanie przeciwzakrzepowe i pomaga na
+                        wzdęcia i niestrawnosci.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-price">Opakowanie papierowe 60g 10zł</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prices wrapper" id="prices">
+        <h2 class="title">Cennik</h2>
+        <div class="prices-items">
+            <div class="tables-box">
+                <div class="table-box">
+                    <table>
+                        <thead>
+                            <tr id="syrops">
+                                <th>Syropy ziołowe</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Naturalny syrop z tarniny</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop z lawendy</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop ze szczeci</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop z z jeżówki purpurowej</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop z nawłoci</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop z mięty</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop z pędów sosny</th>
+                                <td>200ml</td>
+                                <td>15zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop z mniszka</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop pokrzywa-mięta</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop z kwiatów lipy</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop z szałwii lekarskiej</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop z tymianku</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop ze skrzypu polnego</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny syrop z z melisy</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-box">
+                    <table>
+                        <thead>
+                            <tr id="juices">
+                                <th>Soki owocowe i owocowo-ziołowe</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Naturalny sok przecierowy z dzikiej róży</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok z winogron</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok z aronii
+                                </th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok malinowy</th>
+                                <td>300ml</td>
+                                <td>15zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok agrest-mięta</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok z owoców czarnego bzu</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok wiśniowy</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok truskawkowy</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok czereśniowy</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok z czerwonej porzeczki</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok z czarnej porzeczki </th>
+                                <td>300ml</td>
+                                <td>13zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok jabłko-mięta</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok z pigwowca bez cukru</th>
+                                <td>300ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny sok z jarzębiny</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-box">
+                    <table>
+                        <thead>
+                            <tr id="jams">
+                                <th>Powidła Dżemy Sosy</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Keczup z dyni łagodny</th>
+                                <td>200ml</td>
+                                <td>10zł</td>
+                            </tr>
+                            <tr>
+                                <th>Sos śliwkowy z chili </th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Sos paprykowy z chili</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Mus z malin</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Powidła z czarnego bzu</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Powidła czekoladowe że śliwek</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Dżem truskawkowy</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Powidła z czarnej porzeczki</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Powidła wiśniowe</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Powidła czereśniowe</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Powidła z żółtej mirabelki</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div class="table-box">
+                    <table>
+                        <thead>
+                            <tr id="others">
+                                <th>Specjalne</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Pesto z lubczyku świeżego</th>
+                                <td>200ml</td>
+                                <td>10zł</td>
+                            </tr>
+                            <tr>
+                                <th>Sól lubczykowa</th>
+                                <td>60g</td>
+                                <td>6zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalna przyprawa w płynie (magii)</th>
+                                <td>250ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Lubczyk suszony</th>
+                                <td>60g</td>
+                                <td>10zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalny shot z imbirem</th>
+                                <td>200ml</td>
+                                <td>12zł</td>
+                            </tr>
+                            <tr>
+                                <th>Naturalna herbata na odporność</th>
+                                <td>60g</td>
+                                <td>18zł</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="contact wrapper" id="contact">
+    <div class="contact-box">
+        <div class="contact-img">
+            <button class="btn-contact "><a class="check-new" href="https://www.facebook.com/zioloweskarby" target="_blank" rel="noopener">Sprawdź
+                    dostępność</a></button>
+        </div>
+        <h2 class="title">kontakt</h2>
+        <div class="contact-items">
+            <div class="contact-item">
+                <p class="name-item"><strong>RHD Edyta i Daniel Kuźniarscy</strong></p>
+                <p class="name-item">119/0616/2021</p>
+            </div>
+
+            <div class="contact-item">
+                <a class="social-item" href="tel:692-709-133"><i class="fas fa-phone-square-alt"></i>
+                    692-709-133</a>
+                <a class="social-item" href="tel:692-709-133"><i class="fas fa-phone-square-alt"></i>
+                    692-709-133</a>
+                <a class="social-item"
+                    href="https://www.google.com/maps/place/Rachanie/@50.5498059,23.4176926,11z/data=!3m1!4b1!4m5!3m4!1s0x4724a36fa9c3762d:0x5d420cc25a9d62e!8m2!3d50.5548039!4d23.5753007" target="_blank" rel="noopener"><i
+                        class="fab fa-periscope"></i>Rachanie, Polska</a>
+            </div>
+            <div class="contact-item">
+                <a class="social-item" href="mailto:zumbaedyta32@gmail.com"><i class="far fa-envelope" target="_blank" rel="noopener"></i>E-mail</a>
+                <a class="social-item" href="https://www.facebook.com/zioloweskarby" target="_blank" rel="noopener"><i
+                        class="fab fa-facebook"></i>Facebook</a>
+                <a class="social-item" href="https://www.instagram.com/ziolowe_skarby" target="_blank" rel="noopener"><i
+                        class="fab fa-instagram"></i>Instagram </a>
+            </div>
+        </div>
+    </div>
+</section>
+ <footer class="footer wrapper"> <strong> Copyright &copy; Ziołowe skarby</strong> <a
+    href="https://www.facebook.com/milena.pienkosz.50/" class="author">DesignbyMilencja</a> <span
+    class="footyear"></span></footer>    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript"
+        src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="./slick.js"></script>
+</body>
+
+</html>
